@@ -4,10 +4,10 @@ import { Plus } from "lucide-react";
 const faqs = [
   { q: "How long does a typical website take to build?", a: "Most projects launch in 7–25 days depending on the package. Custom stack and enterprise builds run on a separate timeline." },
   { q: "How quickly will I see SEO results?", a: "Foundational wins (technical, on-page, GBP) compound in 30–60 days. Strong organic ranking lifts typically appear from month 3 onward." },
-  { q: "Do you guarantee top Google rankings?", a: "We don't guarantee specific positions — nobody honest does. We do guarantee senior execution, transparent reporting, and measurable lifts in qualified traffic and leads." },
+  { q: "Do you guarantee top Google rankings?", a: "We don't guarantee specific positions - nobody honest does. We do guarantee senior execution, transparent reporting, and measurable lifts in qualified traffic and leads." },
   { q: "What's included in Google Business Profile optimization?", a: "Full GBP audit, category & service optimization, geo-tagged images, review strategy, weekly posts, Q&A management, and local citation cleanup." },
-  { q: "Can you manage Google and Meta Ads together?", a: "Yes — we run integrated campaigns with shared creative, audience, and offer strategy. Reporting is unified so you see true blended ROAS." },
-  { q: "What does your visual content service cover?", a: "Premium product, food, lifestyle, and brand visuals — including AI-driven photography, scroll-stopping ad creatives, and thumb-stop social assets." },
+  { q: "Can you manage Google and Meta Ads together?", a: "Yes - we run integrated campaigns with shared creative, audience, and offer strategy. Reporting is unified so you see true blended ROAS." },
+  { q: "What does your visual content service cover?", a: "Premium product, food, lifestyle, and brand visuals - including AI-driven photography, scroll-stopping ad creatives, and thumb-stop social assets." },
   { q: "Do you work with businesses outside Bangladesh?", a: "Yes. We work with brands across UAE, US, UK, India, and beyond. Our team has 5+ years of international agency experience." },
   { q: "How do you price ongoing work?", a: "Monthly retainers are scoped to channels and goals. We share a clear deliverables list and KPI commitment before you sign anything." },
   { q: "Will I own my website and ad accounts?", a: "Always. You own every account, asset, and deliverable. We never hold your business hostage." },

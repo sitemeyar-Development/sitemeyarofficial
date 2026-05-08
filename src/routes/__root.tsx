@@ -72,7 +72,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sitemeyar — Build. Rank. Scale." },
+      { title: "Sitemeyar - Build. Rank. Scale." },
       { name: "description", content: "Premium digital agency: websites, SEO, GBP, paid ads, and visual content." },
       { name: "twitter:card", content: "summary_large_image" },
     ],

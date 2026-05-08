@@ -1,7 +1,7 @@
 const steps = [
   { n: "01", t: "Discovery & Audit", d: "Free consultation. We diagnose what's actually broken in your funnel." },
   { n: "02", t: "Strategy & Roadmap", d: "A 90-day plan with KPIs, channels, budget, and timelines you can defend to your board." },
-  { n: "03", t: "Build & Launch", d: "Design, develop, optimize, and launch — all under one project manager." },
+  { n: "03", t: "Build & Launch", d: "Design, develop, optimize, and launch - all under one project manager." },
   { n: "04", t: "Scale & Report", d: "Weekly optimization, transparent dashboards, monthly strategy calls." },
 ];
 

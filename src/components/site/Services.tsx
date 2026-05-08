@@ -4,7 +4,7 @@ const services = [
   {
     icon: Code2,
     title: "Website Development",
-    desc: "Conversion-engineered websites on WordPress, Shopify, and custom stacks — fast, secure, and SEO-ready from day one.",
+    desc: "Conversion-engineered websites on WordPress, Shopify, and custom stacks - fast, secure, and SEO-ready from day one.",
   },
   {
     icon: Search,
@@ -14,17 +14,17 @@ const services = [
   {
     icon: MapPin,
     title: "Google Business Profile",
-    desc: "Local SEO and GBP optimization that puts your business in the top 3 map pack — where buyers actually click.",
+    desc: "Local SEO and GBP optimization that puts your business in the top 3 map pack - where buyers actually click.",
   },
   {
     icon: Megaphone,
     title: "Paid Ads (Google + Meta)",
-    desc: "Performance campaigns built around offer, audience, and creative — measured by ROAS, not vanity metrics.",
+    desc: "Performance campaigns built around offer, audience, and creative - measured by ROAS, not vanity metrics.",
   },
   {
     icon: Camera,
     title: "Visual Content",
-    desc: "Premium AI-driven product, food, and brand visuals — scroll-stopping creative that converts on every channel.",
+    desc: "Premium AI-driven product, food, and brand visuals - scroll-stopping creative that converts on every channel.",
   },
 ];
 
@@ -38,7 +38,7 @@ export function Services() {
             One partner. <span className="gradient-text">Every growth channel.</span>
           </h2>
           <p className="mt-4 text-lg text-ink-soft">
-            We replace 5 disconnected vendors with one accountable team — strategy, design, code, and media in lockstep.
+            We replace 5 disconnected vendors with one accountable team - strategy, design, code, and media in lockstep.
           </p>
         </div>
 
