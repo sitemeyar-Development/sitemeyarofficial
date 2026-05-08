@@ -35,7 +35,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.15 }}
               className="mt-6 text-lg md:text-xl text-ink-soft max-w-xl leading-relaxed"
             >
-              Conversion-ready websites, semantic SEO, Google Business Profile growth, and high-ROI ad campaigns —
+              Conversion-ready websites, semantic SEO, Google Business Profile growth, and high-ROI ad campaigns -
               engineered for brands that are done playing small.
             </motion.p>
 
@@ -73,7 +73,7 @@ export function Hero() {
             </motion.div>
           </div>
 
-          {/* Right — visual stack */}
+          {/* Right - visual stack */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}

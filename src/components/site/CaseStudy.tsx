@@ -17,7 +17,7 @@ const blocks = [
     icon: Trophy,
     label: "Result",
     title: "+220% leads, ROAS 4.6×",
-    body: "Within 90 days organic traffic 3.1×, qualified leads +220%, and paid spend efficiency improved 3.3× — without increasing the media budget.",
+    body: "Within 90 days organic traffic 3.1×, qualified leads +220%, and paid spend efficiency improved 3.3× - without increasing the media budget.",
   },
 ];
 

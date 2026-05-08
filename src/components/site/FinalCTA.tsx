@@ -52,7 +52,7 @@ export function FinalCTA() {
                   Let's map your next 90 days of growth.
                 </h2>
                 <p className="mt-4 text-white/85 text-lg">
-                  Tell us where you are. We'll show you what's possible — no fluff, no pressure, no obligation.
+                  Tell us where you are. We'll show you what's possible - no fluff, no pressure, no obligation.
                 </p>
 
                 <div className="mt-8 space-y-3 text-sm">

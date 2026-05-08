@@ -32,7 +32,7 @@ export function Packages() {
             Website packages built to <span className="gradient-text">ship and rank.</span>
           </h2>
           <p className="mt-4 text-lg text-ink-soft">
-            Need a custom stack site or enterprise build? We do that too — just ask.
+            Need a custom stack site or enterprise build? We do that too - just ask.
           </p>
         </div>
 

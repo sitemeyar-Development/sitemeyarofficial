@@ -4,7 +4,7 @@ const reasons = [
   { icon: Target, title: "ROI-first thinking", desc: "Every deliverable maps to revenue. We measure pipeline, not impressions." },
   { icon: Zap, title: "Fast, accountable delivery", desc: "Most websites ship in 7–25 days with weekly progress milestones." },
   { icon: Shield, title: "Senior-only team", desc: "No juniors learning on your account. 5+ years of international experience." },
-  { icon: Users, title: "One team, full stack", desc: "Strategy, design, dev, SEO, and ads under one roof — zero handoff loss." },
+  { icon: Users, title: "One team, full stack", desc: "Strategy, design, dev, SEO, and ads under one roof - zero handoff loss." },
   { icon: BarChart3, title: "Transparent reporting", desc: "Live dashboards. You see traffic, leads, and ad spend in real time." },
   { icon: Clock, title: "Always-on support", desc: "Dedicated account manager and a response SLA you can actually count on." },
 ];

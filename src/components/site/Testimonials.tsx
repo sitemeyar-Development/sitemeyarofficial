@@ -1,5 +1,5 @@
 const reviews = [
-  { name: "Ahmed R.", role: "Founder, Tours UAE", text: "Sitemeyar rebuilt our site and SEO. Leads tripled in 3 months — and the team genuinely cares.", time: "10:42 AM", initial: "A" },
+  { name: "Ahmed R.", role: "Founder, Tours UAE", text: "Sitemeyar rebuilt our site and SEO. Leads tripled in 3 months - and the team genuinely cares.", time: "10:42 AM", initial: "A" },
   { name: "Priya M.", role: "CMO, Skincare DTC", text: "Best ROAS we've ever had. They write the ads, design the creative, and run the funnel.", time: "2:18 PM", initial: "P" },
   { name: "Daniel K.", role: "Owner, Dental Group", text: "Top 3 in the map pack inside 6 weeks. Phones haven't stopped.", time: "9:05 AM", initial: "D" },
   { name: "Sara L.", role: "Director, Interior Studio", text: "The website is gorgeous and ranks. Rare combo. They get craft and conversion.", time: "5:30 PM", initial: "S" },

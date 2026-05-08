@@ -16,13 +16,13 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Sitemeyar — Build. Rank. Scale. Premium Digital Agency" },
+      { title: "Sitemeyar - Build. Rank. Scale. Premium Digital Agency" },
       {
         name: "description",
         content:
           "Sitemeyar is a senior digital agency for website development, semantic SEO, Google Business Profile, paid ads, and visual content. Build. Rank. Scale.",
       },
-      { property: "og:title", content: "Sitemeyar — Build. Rank. Scale." },
+      { property: "og:title", content: "Sitemeyar - Build. Rank. Scale." },
       {
         property: "og:description",
         content:
