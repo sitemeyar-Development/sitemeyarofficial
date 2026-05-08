@@ -18,7 +18,7 @@ export function TrustStrip() {
         </p>
         <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
           {trust.map((t) => (
-            <span key={t} className="text-ink-soft/70 font-display font-semibold tracking-tight text-base md:text-lg">
+            <span key={t} className="text-ink font-display font-semibold tracking-tight text-base md:text-lg">
               {t}
             </span>
           ))}
