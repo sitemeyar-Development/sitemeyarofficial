@@ -101,7 +101,7 @@ function BlogPost() {
         </div>
 
         <div className="container-x max-w-3xl mt-12 space-y-6">
-          {post.content.map((para, i) => (
+          {post.content.map((para: string, i: number) => (
             <p key={i} className="text-lg text-ink leading-relaxed">{para}</p>
           ))}
         </div>
