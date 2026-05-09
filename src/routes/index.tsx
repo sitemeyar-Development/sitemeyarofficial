@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
-import { TrustStrip } from "@/components/site/TrustStrip";
 import { Services } from "@/components/site/Services";
 import { WhyChoose } from "@/components/site/WhyChoose";
 import { Portfolio } from "@/components/site/Portfolio";
@@ -9,6 +8,7 @@ import { CaseStudy } from "@/components/site/CaseStudy";
 import { Process } from "@/components/site/Process";
 import { Packages } from "@/components/site/Packages";
 import { Testimonials } from "@/components/site/Testimonials";
+import { BlogPreview } from "@/components/site/BlogPreview";
 import { FAQ } from "@/components/site/FAQ";
 import { FinalCTA } from "@/components/site/FinalCTA";
 import { Footer } from "@/components/site/Footer";
