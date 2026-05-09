@@ -58,7 +58,7 @@ export function Navbar() {
           </ul>
 
           <div className="flex items-center gap-2">
-            <a href="#contact" className="hidden md:inline-flex btn-primary !py-2.5 !px-5 text-sm">
+            <a href="/#contact" className="hidden md:inline-flex btn-primary !py-2.5 !px-5 text-sm">
               Book Free Consultation
             </a>
             <button
@@ -86,7 +86,7 @@ export function Navbar() {
                 </li>
               ))}
               <li className="pt-2">
-                <a href="#contact" onClick={() => setOpen(false)} className="btn-primary w-full justify-center">
+                <a href="/#contact" onClick={() => setOpen(false)} className="btn-primary w-full justify-center">
                   Book Free Consultation
                 </a>
               </li>
