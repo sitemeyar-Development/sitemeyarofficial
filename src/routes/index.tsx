@@ -39,7 +39,6 @@ function Index() {
     <main className="min-h-screen">
       <Navbar />
       <Hero />
-      <TrustBar />
       <Services />
       <WhyChoose />
       <Portfolio />
