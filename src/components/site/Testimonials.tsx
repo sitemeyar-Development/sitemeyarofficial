@@ -20,7 +20,7 @@ export function Testimonials() {
           {reviews.map((r) => (
             <div key={r.name} className="card-luxe p-6">
               <div className="flex items-start gap-3">
-                <div className="size-10 rounded-full bg-[var(--gradient-primary)] grid place-items-center text-primary-foreground font-semibold">
+                <div className="size-10 rounded-full bg-gradient-primary grid place-items-center text-primary-foreground font-semibold">
                   {r.initial}
                 </div>
                 <div className="flex-1">

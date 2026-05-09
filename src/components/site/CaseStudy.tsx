@@ -36,7 +36,7 @@ export function CaseStudy() {
           <div className="hidden md:block absolute top-12 left-[16%] right-[16%] h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
           {blocks.map((b) => (
             <div key={b.label} className="card-luxe p-7 relative">
-              <div className="size-12 rounded-2xl bg-[var(--gradient-primary)] grid place-items-center text-primary-foreground shadow-[var(--shadow-glow)] relative z-10">
+              <div className="size-12 rounded-2xl bg-gradient-primary grid place-items-center text-primary-foreground shadow-[var(--shadow-glow)] relative z-10">
                 <b.icon className="size-5" />
               </div>
               <div className="mt-5 text-xs uppercase tracking-wider text-primary font-semibold">{b.label}</div>

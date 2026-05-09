@@ -153,7 +153,7 @@ export function Hero() {
                 <div className="text-xs text-ink-soft">Avg. ROAS this quarter</div>
               </div>
               <div className="mt-3 h-1.5 rounded-full bg-secondary overflow-hidden">
-                <div className="h-full w-[82%] bg-[var(--gradient-primary)]" />
+                <div className="h-full w-[82%] bg-gradient-primary" />
               </div>
             </motion.div>
 

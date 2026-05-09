@@ -42,7 +42,7 @@ export function FinalCTA() {
         <div className="card-luxe overflow-hidden">
           <div className="grid lg:grid-cols-[1fr_1.1fr]">
             {/* Left */}
-            <div className="p-8 md:p-12 bg-[var(--gradient-primary)] text-primary-foreground relative overflow-hidden">
+            <div className="p-8 md:p-12 bg-gradient-primary text-primary-foreground relative overflow-hidden">
               <div className="absolute inset-0 grid-bg opacity-30" />
               <div className="relative">
                 <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/20 text-xs font-semibold backdrop-blur">
