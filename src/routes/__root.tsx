@@ -72,9 +72,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sitemeyar - Build. Rank. Scale." },
-      { name: "description", content: "Premium digital agency: websites, SEO, GBP, paid ads, and visual content." },
+      { title: "Sitemeyar - Website Development, Google & AI Ranking Agency" },
+      { name: "description", content: "Digital Marketing Agency to build websites, rank with SEO, GBP and scale with paid ads, and visual content." },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Sitemeyar - Website Development, Google & AI Ranking Agency" },
+      { name: "twitter:title", content: "Sitemeyar - Website Development, Google & AI Ranking Agency" },
+      { property: "og:description", content: "Digital Marketing Agency to build websites, rank with SEO, GBP and scale with paid ads, and visual content." },
+      { name: "twitter:description", content: "Digital Marketing Agency to build websites, rank with SEO, GBP and scale with paid ads, and visual content." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eeac9b78-d311-4e54-9c7d-926da26e2d00/id-preview-7ae66c2c--95753613-5da1-4bab-b0bc-9c1ae92a1c18.lovable.app-1778325733599.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eeac9b78-d311-4e54-9c7d-926da26e2d00/id-preview-7ae66c2c--95753613-5da1-4bab-b0bc-9c1ae92a1c18.lovable.app-1778325733599.png" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "icon", type: "image/png", href: "/favicon.png" },
