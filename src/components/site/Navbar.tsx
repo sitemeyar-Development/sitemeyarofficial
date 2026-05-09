@@ -4,11 +4,12 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/sitemeyar-favicon.png";
 
 const links = [
-  { href: "#services", label: "Services" },
-  { href: "#portfolio", label: "Portfolio" },
-  { href: "#packages", label: "Packages" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#services", label: "Services" },
+  { href: "/#portfolio", label: "Portfolio" },
+  { href: "/#packages", label: "Packages" },
+  { href: "/blog", label: "Blog" },
+  { href: "/#about", label: "About" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export function Navbar() {
