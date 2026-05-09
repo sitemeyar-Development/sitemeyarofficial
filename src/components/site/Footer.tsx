@@ -32,10 +32,11 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-ink">Company</h4>
             <ul className="mt-4 space-y-2.5 text-sm text-ink-soft">
-              <li><a href="#services" className="hover:text-primary">Services</a></li>
-              <li><a href="#portfolio" className="hover:text-primary">Portfolio</a></li>
-              <li><a href="#packages" className="hover:text-primary">Packages</a></li>
-              <li><a href="#contact" className="hover:text-primary">Contact</a></li>
+              <li><a href="/#services" className="hover:text-primary">Services</a></li>
+              <li><a href="/#portfolio" className="hover:text-primary">Portfolio</a></li>
+              <li><a href="/#packages" className="hover:text-primary">Packages</a></li>
+              <li><a href="/blog" className="hover:text-primary">Blog</a></li>
+              <li><a href="/#contact" className="hover:text-primary">Contact</a></li>
             </ul>
           </div>
 
