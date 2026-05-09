@@ -203,6 +203,10 @@
     color: transparent;
   }
 
+  .bg-gradient-primary {
+    background-image: var(--gradient-primary);
+  }
+
   .grid-bg {
     background-image:
       linear-gradient(to right, oklch(0.55 0.27 264 / 0.05) 1px, transparent 1px),
