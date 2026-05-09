@@ -45,7 +45,7 @@ export function Packages() {
               }`}
             >
               {t.featured && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 chip !bg-[var(--gradient-primary)] !text-primary-foreground !border-transparent">
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 chip !bg-gradient-primary !text-primary-foreground !border-transparent">
                   Most popular
                 </span>
               )}

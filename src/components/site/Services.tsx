@@ -45,7 +45,7 @@ export function Services() {
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {services.map((s, i) => (
             <div key={s.title} className={`card-luxe p-7 group ${i === 0 ? "lg:row-span-2 lg:p-8" : ""}`}>
-              <div className="size-12 rounded-2xl bg-[var(--gradient-primary)] grid place-items-center text-primary-foreground shadow-[var(--shadow-glow)]">
+              <div className="size-12 rounded-2xl bg-gradient-primary grid place-items-center text-primary-foreground shadow-[var(--shadow-glow)]">
                 <s.icon className="size-5" />
               </div>
               <h3 className="mt-6 text-xl font-semibold text-ink">{s.title}</h3>
