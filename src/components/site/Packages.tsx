@@ -45,8 +45,11 @@ export function Packages() {
               }`}
             >
               {t.featured && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 chip !bg-gradient-primary !text-primary-foreground !border-transparent">
-                  Most popular
+                <span
+                  className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold tracking-wide text-white border border-transparent shadow-md"
+                  style={{ backgroundImage: "var(--gradient-primary)" }}
+                >
+                  Most Popular
                 </span>
               )}
               <div className="text-sm text-ink-soft">{t.tag}</div>
