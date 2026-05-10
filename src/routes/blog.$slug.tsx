@@ -91,18 +91,25 @@ function BlogPost() {
         </div>
 
         <div className="container-x max-w-3xl mt-10">
-          <div
-            className="aspect-[16/9] rounded-3xl grid place-items-center text-7xl relative overflow-hidden"
-            style={{ background: `linear-gradient(135deg, ${post.cover.from}, ${post.cover.to})` }}
-          >
-            <div className="absolute inset-0 grid-bg opacity-40" />
-            <span className="relative">{post.cover.emoji}</span>
+          <div className="aspect-[16/9] rounded-3xl overflow-hidden bg-surface">
+            <img
+              src={post.image}
+              alt={post.imageAlt}
+              width={1280}
+              height={720}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
-        <div className="container-x max-w-3xl mt-12 space-y-6">
-          {post.content.map((para: string, i: number) => (
-            <p key={i} className="text-lg text-ink leading-relaxed">{para}</p>
+        <div className="container-x max-w-3xl mt-12 space-y-8">
+          {post.content.map((block, i: number) => (
+            <div key={i}>
+              {block.heading && (
+                <h2 className="text-2xl md:text-3xl font-bold text-ink mb-3 mt-6">{block.heading}</h2>
+              )}
+              <p className="text-lg text-ink leading-relaxed">{block.body}</p>
+            </div>
           ))}
         </div>
       </article>
