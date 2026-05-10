@@ -20,15 +20,18 @@ export const Route = createFileRoute("/blog/$slug")({
         { name: "description", content: post.excerpt },
         { name: "keywords", content: post.keywords.join(", ") },
         { name: "author", content: post.author },
+        { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1" },
         { property: "article:published_time", content: post.date },
         { property: "article:section", content: post.category },
         { property: "og:title", content: post.title },
         { property: "og:description", content: post.excerpt },
         { property: "og:type", content: "article" },
         { property: "og:url", content: url },
+        { property: "og:image", content: `https://sitemeyar.com${post.image}` },
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: post.title },
         { name: "twitter:description", content: post.excerpt },
+        { name: "twitter:image", content: `https://sitemeyar.com${post.image}` },
         { rel: "canonical", href: url },
       ],
       scripts: [
@@ -39,8 +42,10 @@ export const Route = createFileRoute("/blog/$slug")({
             "@type": "BlogPosting",
             headline: post.title,
             description: post.excerpt,
+            image: [`https://sitemeyar.com${post.image}`],
             datePublished: post.date,
-            author: { "@type": "Organization", name: post.author },
+            dateModified: post.date,
+            author: { "@type": "Organization", name: post.author, url: "https://sitemeyar.com" },
             publisher: {
               "@type": "Organization",
               name: "Sitemeyar",
@@ -91,18 +96,25 @@ function BlogPost() {
         </div>
 
         <div className="container-x max-w-3xl mt-10">
-          <div
-            className="aspect-[16/9] rounded-3xl grid place-items-center text-7xl relative overflow-hidden"
-            style={{ background: `linear-gradient(135deg, ${post.cover.from}, ${post.cover.to})` }}
-          >
-            <div className="absolute inset-0 grid-bg opacity-40" />
-            <span className="relative">{post.cover.emoji}</span>
+          <div className="aspect-[16/9] rounded-3xl overflow-hidden bg-surface">
+            <img
+              src={post.image}
+              alt={post.imageAlt}
+              width={1280}
+              height={720}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
-        <div className="container-x max-w-3xl mt-12 space-y-6">
-          {post.content.map((para: string, i: number) => (
-            <p key={i} className="text-lg text-ink leading-relaxed">{para}</p>
+        <div className="container-x max-w-3xl mt-12 space-y-8">
+          {post.content.map((block: { heading?: string; body: string }, i: number) => (
+            <div key={i}>
+              {block.heading && (
+                <h2 className="text-2xl md:text-3xl font-bold text-ink mb-3 mt-6">{block.heading}</h2>
+              )}
+              <p className="text-lg text-ink leading-relaxed">{block.body}</p>
+            </div>
           ))}
         </div>
       </article>

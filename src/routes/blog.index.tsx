@@ -7,18 +7,22 @@ import { ArrowUpRight, Clock } from "lucide-react";
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     meta: [
-      { title: "Blog - SEO, Paid Ads & Web Performance Insights | Sitemeyar" },
+      { title: "Sitemeyar Blog | Website Development, SEO, AEO, GEO, GBP & Paid Ads Insights" },
       {
         name: "description",
         content:
-          "Tactical playbooks on semantic SEO, Google Business Profile, paid ads, and web performance from the Sitemeyar agency team.",
+          "Long-form playbooks on Website Development, Semantic SEO, AEO (Answer Engine Optimization), GEO (Generative Engine Optimization), AI Search Results, Google Business Profile, and Paid Ads (Meta & Google) - written by the senior team at Sitemeyar.",
       },
-      { property: "og:title", content: "Sitemeyar Blog - Growth Playbooks for Modern Brands" },
+      { name: "keywords", content: "Website Development blog, SEO blog, AEO, GEO, AI Search SEO, Google Business Profile, GBP optimization, Meta Ads, Google Ads, Paid Ads, Core Web Vitals, semantic SEO, Sitemeyar blog" },
+      { name: "robots", content: "index, follow, max-image-preview:large" },
+      { property: "og:title", content: "Sitemeyar Blog - Website Development, SEO, AEO/GEO & Paid Ads Playbooks" },
       {
         property: "og:description",
-        content: "Senior agency insights on SEO, paid media, and conversion-focused web development.",
+        content: "Senior agency insights on Website Development, SEO, AEO, GEO, GBP optimization, and Meta + Google Ads.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://sitemeyar.com/blog" },
+      { name: "twitter:card", content: "summary_large_image" },
       { rel: "canonical", href: "https://sitemeyar.com/blog" },
     ],
   }),
@@ -50,12 +54,15 @@ function BlogIndex() {
               params={{ slug: p.slug }}
               className="card-luxe overflow-hidden group flex flex-col"
             >
-              <div
-                className="aspect-[16/10] grid place-items-center text-5xl relative overflow-hidden"
-                style={{ background: `linear-gradient(135deg, ${p.cover.from}, ${p.cover.to})` }}
-              >
-                <div className="absolute inset-0 grid-bg opacity-40" />
-                <span className="relative">{p.cover.emoji}</span>
+              <div className="aspect-[16/10] relative overflow-hidden bg-surface">
+                <img
+                  src={p.image}
+                  alt={p.imageAlt}
+                  loading="lazy"
+                  width={1280}
+                  height={800}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
               </div>
               <div className="p-6 flex-1 flex flex-col">
                 <div className="flex items-center gap-3 text-xs text-ink-soft">

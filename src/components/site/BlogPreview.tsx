@@ -30,12 +30,15 @@ export function BlogPreview() {
               params={{ slug: p.slug }}
               className="card-luxe overflow-hidden group flex flex-col"
             >
-              <div
-                className="aspect-[16/10] grid place-items-center text-5xl relative overflow-hidden"
-                style={{ background: `linear-gradient(135deg, ${p.cover.from}, ${p.cover.to})` }}
-              >
-                <div className="absolute inset-0 grid-bg opacity-40" />
-                <span className="relative">{p.cover.emoji}</span>
+              <div className="aspect-[16/10] relative overflow-hidden bg-surface">
+                <img
+                  src={p.image}
+                  alt={p.imageAlt}
+                  loading="lazy"
+                  width={1280}
+                  height={800}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
               </div>
               <div className="p-6 flex-1 flex flex-col">
                 <div className="flex items-center gap-3 text-xs text-ink-soft">
