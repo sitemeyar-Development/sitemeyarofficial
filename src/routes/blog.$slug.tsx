@@ -103,7 +103,7 @@ function BlogPost() {
         </div>
 
         <div className="container-x max-w-3xl mt-12 space-y-8">
-          {post.content.map((block, i: number) => (
+          {post.content.map((block: { heading?: string; body: string }, i: number) => (
             <div key={i}>
               {block.heading && (
                 <h2 className="text-2xl md:text-3xl font-bold text-ink mb-3 mt-6">{block.heading}</h2>
