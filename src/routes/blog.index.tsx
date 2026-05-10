@@ -7,18 +7,22 @@ import { ArrowUpRight, Clock } from "lucide-react";
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     meta: [
-      { title: "Blog - SEO, Paid Ads & Web Performance Insights | Sitemeyar" },
+      { title: "Sitemeyar Blog | Website Development, SEO, AEO, GEO, GBP & Paid Ads Insights" },
       {
         name: "description",
         content:
-          "Tactical playbooks on semantic SEO, Google Business Profile, paid ads, and web performance from the Sitemeyar agency team.",
+          "Long-form playbooks on Website Development, Semantic SEO, AEO (Answer Engine Optimization), GEO (Generative Engine Optimization), AI Search Results, Google Business Profile, and Paid Ads (Meta & Google) - written by the senior team at Sitemeyar.",
       },
-      { property: "og:title", content: "Sitemeyar Blog - Growth Playbooks for Modern Brands" },
+      { name: "keywords", content: "Website Development blog, SEO blog, AEO, GEO, AI Search SEO, Google Business Profile, GBP optimization, Meta Ads, Google Ads, Paid Ads, Core Web Vitals, semantic SEO, Sitemeyar blog" },
+      { name: "robots", content: "index, follow, max-image-preview:large" },
+      { property: "og:title", content: "Sitemeyar Blog - Website Development, SEO, AEO/GEO & Paid Ads Playbooks" },
       {
         property: "og:description",
-        content: "Senior agency insights on SEO, paid media, and conversion-focused web development.",
+        content: "Senior agency insights on Website Development, SEO, AEO, GEO, GBP optimization, and Meta + Google Ads.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://sitemeyar.com/blog" },
+      { name: "twitter:card", content: "summary_large_image" },
       { rel: "canonical", href: "https://sitemeyar.com/blog" },
     ],
   }),

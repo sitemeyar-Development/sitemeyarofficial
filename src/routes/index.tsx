@@ -22,7 +22,8 @@ export const Route = createFileRoute("/")({
         content:
           "Sitemeyar is a senior digital agency delivering conversion-ready websites, semantic SEO, Google Business Profile growth, and high-ROI paid campaigns. Build. Rank. Scale.",
       },
-      { name: "keywords", content: "digital agency, semantic SEO, Google Business Profile, web development, paid ads, Meta ads, Google ads, Bangladesh digital agency, Dubai digital agency" },
+      { name: "keywords", content: "Website Development, SEO agency, Semantic SEO, AEO, Answer Engine Optimization, GEO, Generative Engine Optimization, AI Search Results, Google AI Overviews, ChatGPT Search SEO, Perplexity SEO, GBP Optimization, Google Business Profile, Local SEO, Paid Ads, Meta Ads, Facebook Ads, Instagram Ads, Google Ads, Performance Max, digital agency Bangladesh, digital agency Dubai, conversion rate optimization, Core Web Vitals, Sitemeyar" },
+      { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" },
       { property: "og:title", content: "Sitemeyar - Build. Rank. Scale." },
       {
         property: "og:description",
