@@ -45,12 +45,12 @@ export function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm text-ink-soft">
               <li>
                 <a href="https://wa.me/8801532202824" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-primary">
-                  <MessageCircle className="size-4" /> WhatsApp · 01532202824
+                  <MessageCircle className="size-4" /><span>WhatsApp · 01532202824</span>
                 </a>
               </li>
               <li>
                 <a href="mailto:sitemeyar.work@gmail.com" className="inline-flex items-center gap-2 hover:text-primary">
-                  <Mail className="size-4" /> sitemeyar.work@gmail.com
+                  <Mail className="size-4" /><span>sitemeyar.work@gmail.com</span>
                 </a>
               </li>
               <li className="pt-3">
